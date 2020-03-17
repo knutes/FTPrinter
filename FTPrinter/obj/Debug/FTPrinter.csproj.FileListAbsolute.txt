@@ -1,0 +1,12 @@
+C:\Users\austink\source\repos\FTPrinter\FTPrinter\bin\Debug\FTPrinter.exe.config
+C:\Users\austink\source\repos\FTPrinter\FTPrinter\bin\Debug\FTPrinter.exe
+C:\Users\austink\source\repos\FTPrinter\FTPrinter\bin\Debug\FTPrinter.pdb
+C:\Users\austink\source\repos\FTPrinter\FTPrinter\obj\Debug\FTPrinter.csprojAssemblyReference.cache
+C:\Users\austink\source\repos\FTPrinter\FTPrinter\obj\Debug\FTPrinter.Form1.resources
+C:\Users\austink\source\repos\FTPrinter\FTPrinter\obj\Debug\FTPrinter.Properties.Resources.resources
+C:\Users\austink\source\repos\FTPrinter\FTPrinter\obj\Debug\FTPrinter.csproj.GenerateResource.cache
+C:\Users\austink\source\repos\FTPrinter\FTPrinter\obj\Debug\FTPrinter.csproj.CoreCompileInputs.cache
+C:\Users\austink\source\repos\FTPrinter\FTPrinter\obj\Debug\FTPrinter.exe
+C:\Users\austink\source\repos\FTPrinter\FTPrinter\obj\Debug\FTPrinter.pdb
+C:\Users\austink\source\repos\FTPrinter\FTPrinter\bin\Debug\RawPrint.dll
+C:\Users\austink\source\repos\FTPrinter\FTPrinter\obj\Debug\FTPrinter.csproj.CopyComplete
