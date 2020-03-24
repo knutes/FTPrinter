@@ -28,6 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.listFilesButton = new System.Windows.Forms.Button();
             this.cmbPrinter = new System.Windows.Forms.ComboBox();
@@ -50,6 +52,7 @@
             this.startButton = new System.Windows.Forms.Button();
             this.deleteCheckBox = new System.Windows.Forms.CheckBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,7 +60,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(259, 42);
+            this.label1.Location = new System.Drawing.Point(260, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(122, 37);
             this.label1.TabIndex = 0;
@@ -202,8 +205,10 @@
             // 
             this.passwordTxtBox.Location = new System.Drawing.Point(172, 225);
             this.passwordTxtBox.Name = "passwordTxtBox";
+            this.passwordTxtBox.PasswordChar = '*';
             this.passwordTxtBox.Size = new System.Drawing.Size(210, 20);
             this.passwordTxtBox.TabIndex = 23;
+            this.passwordTxtBox.UseSystemPasswordChar = true;
             // 
             // maskTxtBox
             // 
@@ -241,11 +246,20 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::FTPrinter.Properties.Resources.mcsilogo;
-            this.pictureBox1.Location = new System.Drawing.Point(31, 20);
+            this.pictureBox1.Location = new System.Drawing.Point(43, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(168, 67);
             this.pictureBox1.TabIndex = 29;
             this.pictureBox1.TabStop = false;
+            // 
+            // notifyIcon1
+            // 
+            this.notifyIcon1.BalloonTipText = "FTPrinter";
+            this.notifyIcon1.BalloonTipTitle = "FTPrinter";
+            this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
+            this.notifyIcon1.Text = "FTPrinter";
+            this.notifyIcon1.Visible = true;
+            this.notifyIcon1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.NotifyIcon1_MouseClick);
             // 
             // Form1
             // 
@@ -274,8 +288,9 @@
             this.Controls.Add(this.cmbPrinter);
             this.Controls.Add(this.listFilesButton);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "FTPrinter";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
@@ -307,6 +322,7 @@
         private System.Windows.Forms.Button startButton;
         private System.Windows.Forms.CheckBox deleteCheckBox;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.NotifyIcon notifyIcon1;
     }
 }
 

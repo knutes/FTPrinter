@@ -10,3 +10,4 @@ C:\Users\austink\source\repos\FTPrinter\FTPrinter\obj\Debug\FTPrinter.exe
 C:\Users\austink\source\repos\FTPrinter\FTPrinter\obj\Debug\FTPrinter.pdb
 C:\Users\austink\source\repos\FTPrinter\FTPrinter\bin\Debug\RawPrint.dll
 C:\Users\austink\source\repos\FTPrinter\FTPrinter\obj\Debug\FTPrinter.csproj.CopyComplete
+C:\Users\austink\source\repos\FTPrinter\FTPrinter\obj\Debug\FTPrinter.Resource1.resources
